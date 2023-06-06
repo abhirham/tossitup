@@ -32,3 +32,12 @@ footer .brand {
   background: #EB3E38;
   color: white;
 }
+
+.logoHeader {
+  height: 40vh;
+  background: url("/public/images/logoBG.svg");
+}
+
+.logoText {
+  max-height: 70%;
+}
