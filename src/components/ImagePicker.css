@@ -41,11 +41,37 @@
 .foodImage {
     height: 200px;
     object-fit: cover;
-    width: 100%;
+    min-width: 300px;
+    max-width: 300px;
     border: 2px solid;
+    transition: all 0.3s ease;
 }
 
 
 .foodImage.active {
-    transform: scale(1.4);
+    /* transform: scale(1.4); */
+
 }
+
+.foodImage.centered {
+    scroll-snap-align: center;
+}
+
+.foodImageContainer {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.imagePicker {
+    max-width: 90vw;
+}
+
+.foodImageContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .foodImageContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

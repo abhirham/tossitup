@@ -130,7 +130,7 @@ export const food = {
             }
         ]
     },
-    "fries_&_potine": {
+    "fries_potine": {
         "title": "FRIES & POTINE",
         image: "fries.jpeg",
         "foods": [
@@ -329,7 +329,7 @@ export const food = {
 export const foodOrder = [
     "appetizer",
     "indian_wings",
-    "fries_&_potine",
+    "fries_potine",
     "hakka_chinese_noddle’s",
     "hakka_fried_rice",
     "biryani",
@@ -360,4 +360,11 @@ foodOrder.forEach(key => {
 foodImageMap[foodOrder[0]].prev = prev;
 prev.next = foodImageMap[foodOrder[0]];
 
-export { foodImageMap };
+// new stuff from here
+let foodImageList = [];
+
+[foodOrder.slice(-3), foodOrder, foodOrder.slice(0, 3)].forEach((arr, idx) => {
+    arr.forEach(key => foodImageList.push({key: `${key}${idx === 1 ? "" : "_cloned"}`, image: food[key].image,}))
+})
+
+export { foodImageMap, foodImageList };
