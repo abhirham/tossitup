@@ -11,6 +11,26 @@ export default ({ activeCategory, onImageClick }) => {
         document.querySelector('.'+activeCategory).classList.add("active");
     }, [activeCategory])
 
+    useEffect(() => {
+        const disableScroll = (e) => {
+            if (e.deltaX !== 0) {
+                e.preventDefault();
+            }
+        };
+    
+        const scrollDiv = document.querySelector('.foodImageContainer');
+    
+        scrollDiv.addEventListener('wheel', disableScroll, { passive: false });
+        scrollDiv.addEventListener('touchmove', disableScroll, { passive: false });
+    
+        return () => {
+          scrollDiv.removeEventListener('wheel', disableScroll);
+          scrollDiv.removeEventListener('touchmove', disableScroll);
+          
+        };
+      }, []);
+
+
     return (
         <div className="d-flex flex-row justify-content-center align-items-center mt-5 mb-5 imagePicker">
             <button onClick={e => onImageClick(current.prev.key)} className="iconBtn me-3 ">

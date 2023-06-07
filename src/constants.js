@@ -7,7 +7,7 @@ export const food = {
         "foods": [
             {
                 "name": "Chilly Paneer",
-                "price": "14.49",
+                "price": "10.99",
                 "description": "Battered Paneer, wok-fried with a spicy blend of chilies, ginger, garlic, and green onions",
                 "spice": [
                     mild,
@@ -16,7 +16,7 @@ export const food = {
             },
             {
                 "name": "Chilly Chicken",
-                "price": "12.99",
+                "price": "10.99",
                 "description": "Battered chicken, wok-fried with a spicy blend of chilies, ginger, garlic, and green onions",
                 "spice": [
                     mild,
@@ -25,7 +25,7 @@ export const food = {
             },
             {
                 "name": "Paneer Manchurian",
-                "price": "12.99",
+                "price": "10.99",
                 "description": "Crispy Paneer Tossed in Manchurian Sauce",
                 "spice": [
                     mild,
@@ -34,7 +34,7 @@ export const food = {
             },
             {
                 "name": "Gobi Manchurian",
-                "price": "12.99",
+                "price": "9.99",
                 "description": "Cauliflower with flour deep fried tossed in soya garlic sauce.",
                 "spice": [
                     mild,
@@ -43,7 +43,7 @@ export const food = {
             },
             {
                 "name": "Paneer 65",
-                "price": "12.99",
+                "price": "10.99",
                 "description": "Paneer fried  with south Indian spirited flavors of curry leaves, ginger, garlic, and chilies.",
                 "spice": [
                     mild,
@@ -52,7 +52,7 @@ export const food = {
             },
             {
                 "name": "Chicken 65",
-                "price": "12.99",
+                "price": "10.99",
                 "description": "Chicken strips with south Indian spirited flavors of curry leaves, ginger, garlic, and chilies.",
                 "spice": [
                     mild,
@@ -76,6 +76,16 @@ export const food = {
                     spicy
                 ],
                 "qty": 5
+            },
+            {
+                "name": "Samosa",
+                "price": "6.99",
+                "description": "A fried South Asian pastry with a savoury filling including ingredients such as potatoes, onions, peas.",
+            },
+            {
+                "name": "Spring roll veg/chicken",
+                "price": "6.99",
+                "description": "A savoury snack made of thin crepe pastry skin enveloping a mixture of savoury fillings, consists of chopped vegetables, carrots, cabbages, green beans.",
             }
         ]
     },
@@ -85,7 +95,7 @@ export const food = {
         "foods": [
             {
                 "name": "Butter Chicken Wings",
-                "price": "12.99",
+                "price": "9.99",
                 "description": "Wings Tossed in home made butter chicken wings",
                 "spice": [
                     mild
@@ -94,7 +104,7 @@ export const food = {
             },
             {
                 "name": "Masala dusted wings",
-                "price": "12.99",
+                "price": "9.99",
                 "description": "Wings Dusted in Homemade Dry spice masala",
                 "spice": [
                     mild
@@ -103,7 +113,7 @@ export const food = {
             },
             {
                 "name": "Indian Chilly Wings",
-                "price": "12.99",
+                "price": "9.99",
                 "description": "Wings Tossed in Chilly Sauce",
                 "spice": [
                     spicy
@@ -112,7 +122,7 @@ export const food = {
             },
             {
                 "name": "Indo Canadian Wings",
-                "price": "12.99",
+                "price": "9.99",
                 "description": "Wings Tossed in chefs special sauce",
                 "spice": [
                     spicy
@@ -121,7 +131,7 @@ export const food = {
             },
             {
                 "name": "Hakka wings",
-                "price": "12.99",
+                "price": "9.99",
                 "description": "Wings Tossed in Hakka Sauce ",
                 "spice": [
                     spicy
@@ -136,19 +146,19 @@ export const food = {
         "foods": [
             {
                 "name": "Regular Fries",
-                "price": "",
+                "price": "5.99",
                 "description": "Regular fries",
                 "spice": []
             },
             {
                 "name": "Masala Fries",
-                "price": "",
+                "price": "5.99",
                 "description": "Masala fries",
                 "spice": []
             },
             {
                 "name": "Butter Chicken Poutine",
-                "price": "12.99",
+                "price": "10.99",
                 "description": "Cheese loaded fries topped with authentic Butter chicken",
                 "spice": [
                     mild
@@ -156,7 +166,7 @@ export const food = {
             },
             {
                 "name": "Butter Paneer Poutine",
-                "price": "12.99",
+                "price": "10.99",
                 "description": "Cheesy Fries Topped with Butter Panneer Gravy",
                 "spice": [
                     mild
@@ -170,7 +180,7 @@ export const food = {
         "foods": [
             {
                 "name": "Hot Garlic Noodles Veg /Chicken",
-                "price": "12.99",
+                "price": "10.99",
                 "description": "Noodles tossed in vegetables And chicken with garlic sauce",
                 "spice": [
                     mild,
@@ -179,7 +189,7 @@ export const food = {
             },
             {
                 "name": "Sezwan Noddle’ Veg /Chicken",
-                "price": "12.99",
+                "price": "10.99",
                 "description": "Noodles tossed in Vegetables or option of chicken",
                 "spice": [
                     spicy
@@ -187,7 +197,7 @@ export const food = {
             },
             {
                 "name": "Hakka Sweet BBQ Noodles Chicken/Veg",
-                "price": "12.99",
+                "price": "10.99",
                 "description": "Noodles tossed in BBQ sauce",
                 "spice": [
                     spicy
@@ -201,7 +211,7 @@ export const food = {
         "foods": [
             {
                 "name": "Fried Rice Veg/Chicken/Egg",
-                "price": "12.99",
+                "price": "8.99 / 10.99 / 9.99",
                 "description": "Rice Tossed in vegetables or option of chicken with black pepper ,salt ,garlic powder",
                 "spice": [
                     mild
@@ -218,7 +228,7 @@ export const food = {
             },
             {
                 "name": "Sezwan Fried Rice Veg/Chicken/Egg",
-                "price": "12.99",
+                "price": "11.99",
                 "description": "Rice tossed in vegetables /chicken/egg and seczwan sauce",
                 "spice": [
                     spicy
@@ -232,7 +242,7 @@ export const food = {
         "foods": [
             {
                 "name": "Chicken In Biryani",
-                "price": "15.99",
+                "price": "13.99",
                 "description": "Traditional chicken biryani is made by layering marinated chicken at the bottom of a pot followed by another layer of par cooked rice, herbs",
                 "spice": [
                     mild
@@ -240,7 +250,7 @@ export const food = {
             },
             {
                 "name": "Lamb Biryani",
-                "price": "15.99",
+                "price": "14.99",
                 "description": "Lamb cooked slowly with rice",
                 "spice": [
                     mild
@@ -248,7 +258,7 @@ export const food = {
             },
             {
                 "name": "Veg Biryani",
-                "price": "15.99",
+                "price": "12.99",
                 "description": "Vegetables cooked with curd base gravy with rice",
                 "spice": [
                     mild
@@ -262,17 +272,17 @@ export const food = {
         "foods": [
             {
                 "name": "Fruit Salad",
-                "price": "10.99",
+                "price": "8.99",
                 "description": "Fruit salad is a dish consisting of various kinds of fruit"
             },
             {
                 "name": "Caesar Salad ",
-                "price": "10.99",
+                "price": "9.99",
                 "description": "Caesar salad is made with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing."
             },
             {
                 "name": "Cucumber Salad",
-                "price": "10.99",
+                "price": "8.99",
                 "description": "Cucumber Salad is a delicious summery blend of cucumbers, dill, and dressing!"
             }
         ]
@@ -284,17 +294,17 @@ export const food = {
             {
                 "name": "Gulab Jam",
                 "description": "Gulab jamun (or gulaab jamun) is among India's most popular desserts and is often referred to as \"Indian doughnuts.\" This delicious sweet treat consists of soft, melt-in-your-mouth, fried dumplings that are traditionally made of thickened or reduced milk and then soaked in a sugar syrup made with rose water",
-                "price": ""
+                "price": "4.99"
             },
             {
                 "name": "Ras Malai",
                 "description": "Rasmalai, or as it is traditionally called Rossomoloi, is a Bengali delicacy of spongy soft cheese dumplings that are cooked in sugar syrup and then soaked in creamy cardamom-saffron milk, absorbing all the lovely flavors. Rasmalai is a combination of two words “Ras” meaning juice and “Malai” meaning cream.",
-                "price": ""
+                "price": "5.99"
             },
             {
                 "name": "Gajar kaa Halwa",
                 "description": "The traditional gajar ka halwa recipe is made with only carrots, whole (full-fat) milk, ghee and sugar",
-                "price": ""
+                "price": "4.99"
             }
         ]
     },
