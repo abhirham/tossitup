@@ -7,7 +7,7 @@ export default ({ activeCategory, onImageClick }) => {
 
     useEffect(() => {
         document.querySelector('.'+activeCategory).scrollIntoView({inline: "center", behavior: "smooth", block: 'nearest'});
-        document.querySelector('.foodImage').classList.remove("active");
+        document.querySelectorAll('.foodImage').forEach(el => el.classList.remove("active"));
         document.querySelector('.'+activeCategory).classList.add("active");
     }, [activeCategory])
 
