@@ -135,7 +135,7 @@ export const food = {
         ]
     },
     "fries_potine": {
-        "title": "FRIES & POTINE",
+        "title": "FRIES & POUTINE",
         image: "fries.jpeg",
         "foods": [
             {
@@ -169,7 +169,7 @@ export const food = {
         ]
     },
     "hakka_chinese_noddle’s": {
-        "title": "Hakka Chinese Noddle’s",
+        "title": "Hakka Chinese Noodle’s",
         image: "hakkaNoodles.jpeg",
         "foods": [
             {
@@ -182,7 +182,7 @@ export const food = {
                 ]
             },
             {
-                "name": "Sezwan Noddle’s Veg/Chicken",
+                "name": "Schezwan Noodle’s Veg/Chicken",
                 "price": "10.99",
                 "description": "Noodles tossed in Vegetables or option of chicken.",
                 "spice": [
@@ -221,7 +221,7 @@ export const food = {
                 ]
             },
             {
-                "name": "Sezwan Fried Rice Veg/Chicken/Egg",
+                "name": "Schezwan Fried Rice Veg/Chicken/Egg",
                 "price": "11.99",
                 "description": "Rice tossed in vegetables/chicken/egg and seczwan sauce.",
                 "spice": [
@@ -312,7 +312,7 @@ export const food = {
                 "description": "Orange, grape fruit, apple."
             },
             {
-                "name": "Cholesterol reducer 12oz/16oz",
+                "name": "Cholesterol Reducer 12oz/16oz",
                 "price": "4.99 / 5.99",
                 "description": "Carrot, apple, parsley, ginger."
             },
