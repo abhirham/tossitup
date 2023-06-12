@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+:root {
+  --yellow: #FECD06;
+}
 
 .mainContent {
   display: grid;
   grid-template-rows: 1fr auto;
   font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+.menu {
+  font-family: 'Bangers', cursive;
+  font-size: 90px;
+  border-bottom: 8px solid var(--yellow);
+  border-radius: 15px;
 }
 
 footer {
@@ -25,7 +37,7 @@ footer .brand {
 }
 
 .mild {
-  background: #FECD06;
+  background: var(--yellow);
 }
 
 .spicy {
