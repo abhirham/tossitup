@@ -204,16 +204,16 @@ export const food = {
         image: "friedRice.jpeg",
         "foods": [
             {
-                "name": "Fried Rice Veg/Chicken/Egg",
-                "price": "8.99 / 10.99 / 9.99",
+                "name": "Fried Rice Veg/Egg/Chicken",
+                "price": "8.99 / 9.99 / 10.99",
                 "description": "Rice Tossed in vegetables or option of chicken with black pepper, salt, garlic powder.",
                 "spice": [
                     mild
                 ]
             },
             {
-                "name": "Manchurian Fried Rice Veg/Chicken/Egg",
-                "price": "10.99 / 11.99",
+                "name": "Manchurian Fried Rice Veg/Egg/Chicken",
+                "price": "9.99 / 10.99 / 11.99",
                 "description": "Rice tossed in vegetables or chicken and Manchurian sauce.",
                 "spice": [
                     mild,
@@ -221,9 +221,9 @@ export const food = {
                 ]
             },
             {
-                "name": "Schezwan Fried Rice Veg/Chicken/Egg",
-                "price": "11.99",
-                "description": "Rice tossed in vegetables/chicken/egg and seczwan sauce.",
+                "name": "Schezwan Fried Rice Veg/Egg/Chicken",
+                "price": "8.99 / 9.99 / 10.99",
+                "description": "Rice tossed in vegetables/egg/chicken and seczwan sauce.",
                 "spice": [
                     spicy
                 ]
