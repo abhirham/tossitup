@@ -21,7 +21,10 @@
 
 footer {
   background: #393939;
-  color: #FFF6E3;
+}
+
+footer, footer a {
+  color: #FFF6E3 !important;
 }
 
 footer .brand {
