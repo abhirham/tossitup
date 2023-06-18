@@ -1,0 +1,18 @@
+footer {
+    background: #393939;
+}
+
+footer,
+footer a {
+    color: #FFF6E3 !important;
+}
+
+footer .openingHoursSection {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+footer hr.border {
+    max-width: 500px;
+    width: 100%;
+    border-color: #FFF6E3 !important;
+}

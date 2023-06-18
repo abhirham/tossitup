@@ -4,6 +4,7 @@ import { food } from "./constants";
 
 import CategoryTitle from "./components/CategoryTitle";
 import ImagePicker from "./components/ImagePicker";
+import Footer from "./components/Footer";
 
 function App() {
   const [activeCategory, setActiveCategory] = useState("appetizer");
@@ -44,22 +45,7 @@ function App() {
           ))}
         </div>
       </main>
-      <footer className="d-flex flex-column justify-content-center align-items-center pb-3">
-        <div className="brand">TOSS IT UP</div>
-        <a
-          href="https://goo.gl/maps/yHFx7VMokEH3KC9i8"
-          className="text-center text-decoration-none"
-        >
-          1233 Dillon Rd, Burlington
-          <br />
-          ON L7M 1K6
-        </a>
-        <div className="mt-2">
-          <a href="tel:+16478091240" className="text-decoration-none">
-            +1 (647)809-1240
-          </a>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
