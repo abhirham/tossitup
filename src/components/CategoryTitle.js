@@ -1,9 +1,11 @@
 import "./CategoryTitle.css";
 
-export default ({category}) => {
+const CategoryTitle = ({category}) => {
     return (
         <div className="categoryHeaderContainer mx-auto px-3 text-center">
             <span className="fw-bolder categoryHeader">{category}</span>
         </div>
     )
 }
+
+export default CategoryTitle;

@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="mainContent min-vh-100">
       <header className="logoHeader d-flex align-items-center justify-content-center">
-        <img className="img-fluid logoText" src="/images/logoText.png"></img>
+        <img className="img-fluid logoText" alt="company_logo" src="/images/logoText.png"></img>
       </header>
       <main className="container mb-5">
         <div className="text-center">
