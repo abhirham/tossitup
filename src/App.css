@@ -19,18 +19,7 @@
   border-radius: 15px;
 }
 
-footer {
-  background: #393939;
-}
 
-footer, footer a {
-  color: #FFF6E3 !important;
-}
-
-footer .brand {
-  font-size: 96px;
-  font-family: 'Bebas Neue', sans-serif;
-}
 
 .spicePill {
   border-radius: 12px 0px;
