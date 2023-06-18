@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { foodImageMap, foodImageList } from "../constants";
 import "./ImagePicker.css";
 
-export default ({ activeCategory, onImageClick }) => {
+const ImagePicker = ({ activeCategory, onImageClick }) => {
   let current = foodImageMap[activeCategory];
 
   useEffect(() => {
@@ -48,6 +48,7 @@ export default ({ activeCategory, onImageClick }) => {
           <img
             key={key + idx}
             src={`/images/${image}`}
+            alt={`${key}-img`}
             className={`img-fluid foodImage mx-3 ${
               key.indexOf("_cloned") > -1 ? key : key + " centered"
             }`}
@@ -63,3 +64,5 @@ export default ({ activeCategory, onImageClick }) => {
     </div>
   );
 };
+
+export default ImagePicker;
