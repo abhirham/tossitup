@@ -18,6 +18,7 @@
 
 .viewMenuBtn {
   background: var(--yellow);
+  border-radius: 15px;
 }
 
 .menu {
@@ -45,9 +46,14 @@
 }
 
 .logoHeader {
-  height: 60vh;
+  min-height: 60vh;
   background: url("/public/images/logoBG.svg");
   border: 5px solid var(--yellow);
+}
+
+header .reserve {
+  font-family: 'Bebas Neue', sans-serif;
+  border-radius: 15px;
 }
 
 .logoText {
