@@ -24,8 +24,8 @@ const Footer = () => {
                 ON L7M 1K6
             </a>
             <div className="mt-2">
-                <a href="tel:+16478091240" className="text-decoration-none">
-                    +1 (647)809-1240
+                <a href="tel:+16479488221" className="text-decoration-none">
+                    +1 (647) 948-8221
                 </a>
             </div>
         </footer>

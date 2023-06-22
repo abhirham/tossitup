@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Roboto+Slab&family=Tsukimi+Rounded:wght@400;700&display=swap');
 
 :root {
   --yellow: #FECD06;
@@ -12,8 +10,17 @@
   font-family: 'Tsukimi Rounded', sans-serif;
 }
 
-.menu {
+.text-bangers {
   font-family: 'Bangers', cursive;
+}
+
+
+
+.viewMenuBtn {
+  background: var(--yellow);
+}
+
+.menu {
   font-size: 90px;
   border-bottom: 8px solid var(--yellow);
   border-radius: 15px;
@@ -38,10 +45,32 @@
 }
 
 .logoHeader {
-  height: 40vh;
+  height: 60vh;
   background: url("/public/images/logoBG.svg");
+  border: 5px solid var(--yellow);
 }
 
 .logoText {
-  max-height: 70%;
+  max-height: 50%;
+}
+
+.aboutus {
+  background-color: #131313;
+  color: #E4DED2;
+  font-size: 16px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.aboutus .header {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 64px;
+  line-height: 70px;
+}
+
+
+.aboutus img {
+  height: 370px;
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.8;
 }

@@ -5,6 +5,8 @@ footer {
 footer,
 footer a {
     color: #FFF6E3 !important;
+    font-family: 'Roboto Slab', serif;
+
 }
 
 footer .openingHoursSection {
