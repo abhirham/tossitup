@@ -21,6 +21,10 @@ function App() {
       <header className="logoHeader d-flex flex-column align-items-center justify-content-center">
         <img className="img-fluid logoText" alt="company_logo" src="/images/logoText.png"></img>
         <button type="button" class="btn btn-warning viewMenuBtn mt-5 text-bangers fs-1 px-4" onClick={viewMenu}>View Menu</button>
+        <a href="tel:+16479488221" class="reserve btn btn-warning viewMenuBtn mt-3 text-bangers fs-3 px-4">
+          <i class="fa-solid fa-phone fa-xs me-3"></i>
+          <span >+1 (647) 948-8221</span>
+        </a>
       </header>
       <div className="row aboutus align-items-center p-5">
         <div className="col-md p-5">

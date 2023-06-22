@@ -17,17 +17,12 @@ const Footer = () => {
             <hr className="border border-2 mt-0" />
             <a
                 href="https://goo.gl/maps/yHFx7VMokEH3KC9i8"
-                className="text-center text-decoration-none"
+                className="text-center text-decoration-none fs-5"
             >
                 1233 Dillon Rd, Burlington
                 <br />
                 ON L7M 1K6
             </a>
-            <div className="mt-2">
-                <a href="tel:+16479488221" className="text-decoration-none">
-                    +1 (647) 948-8221
-                </a>
-            </div>
         </footer>
     )
 }
