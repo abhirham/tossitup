@@ -46,6 +46,7 @@
 }
 
 .logoHeader {
+  min-width: 100vw;
   min-height: 60vh;
   background: url("/public/images/logoBG.svg");
   border: 5px solid var(--yellow);
